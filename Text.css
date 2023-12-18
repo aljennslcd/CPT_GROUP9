@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?? family-Poppins: wght@300;400;500; 600; 700; 800;900& display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: white;
+	
+}
+.wrapper {
+	margin: 15px auto;
+	width: 70%;
+}
+img {
+	max-width: 200px;
+	float: left;
+	margin-right: 15px;
+}
+.text-box {
+	color: rgb(228, 222, 222);
+}
+.text-box h2 {
+	font-size: 42px;
+}
+.text-box p {
+	font-size: 20px;
+	margin-top: 5px;
+}
+.text-box h3 {
+	margin-top: 10px;
+	font-size: 25px;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.table {
+	margin-left: 250px;
+	border-radius: 10px;
+	border: 3px solid black;
+	text-align: center;
+	width: 75%;
+}
+#Cesium {
+	margin-bottom: 110px;
+}
+#ED {
+	margin-left: 300px;
+}
+#EDp {
+	margin-left: 20px;
+	margin-bottom: 10px
+}
+#EDP {
+	font-size: 20px;
+}
+#hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#About {
+	margin-left: 25px;
+	margin-right: 25px;
+	color:aliceblue;
+}
+#Abouth3 {
+	font-size: 30px;
+	color:aliceblue;
+}
+#Ap {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
