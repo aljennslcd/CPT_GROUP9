@@ -1,1 +1,49 @@
 # CPT_GROUP9
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="Group9.css">
+		<title>Group 9</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="nav">
+				<h1 id="logo">
+					<a href="Group9.html">
+						<img src="img/logo.jpg" alt="My Home" width="70.50" height="70.50" class="d-inline-block align-text-top">
+					</a>  
+				</h1>
+				<h1 id="logo">GENCHEMATECH</h1>
+				<nav>
+					<ul>
+						<li><a href="Group9.html">HOME</a></li>
+						<li><a href="About.html">ABOUT</a></li>
+						<li><a href="Contact.html">CONTACT US</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="content"> 
+				<div id="Content"> 
+					<a href="General Chemistry.html">
+						<div class="Sub content1 zoom"> 
+							<h1></h1>
+						</div>
+					</a>
+					<a href="Empowerment Technology.html">
+						<div class="Sub content2 zoom"> 
+							<h1></h1>
+						</div>
+					</a>
+					<a href="General Mathematics.html">
+						<div class="Sub content3 zoom"> 
+							<h1></h1>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
