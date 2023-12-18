@@ -47,3 +47,139 @@
 		</div>
 	</body>
 </html>
+*{
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	background-image: url('img/bg.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.nav {
+	height: 10%;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.048);
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	color: white;
+}
+#logo {
+	width: 60px;
+	cursor: pointer;
+}
+nav {
+	flex: 1;
+	text-align: right;	
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0px 35px;
+}
+nav ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;	
+	color: white;
+}
+.content {
+	display: flex;
+	height: 85%;
+	align-items: center;
+	padding-left: 23%;
+	padding-right: 23%;
+	box-sizing: border-box;
+}
+p {
+	font-size: 20px;
+	line-height: 20px;
+}
+.Content {
+	flex-basis: 50%;
+}
+button {
+	width: 165px;
+	color: black;
+	font-size: 20px;
+	padding: 12px 0px;
+	margin-top: 30px;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+button:hover {
+	background-color: rgba(101, 105, 101, 0.822);
+	color: white;
+}
+.Sub {
+	width: 310px;
+	height: 450px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.Sub h1 {
+	background-size: rgba(233, 228, 218, 0.068);
+	font-size: 20px;	
+}
+.content1 {
+	background-image: url('img/chem.jpg')
+}
+.content2 {
+	background-image: url('img/Tech.jpg');
+}
+.content3 {
+	background-image: url('img/Math.jpg');
+}
+#logo {
+	margin-left: 20px;
+}
+.zoom:hover {
+	transform: translateY(-20px);
+}
+#Head {
+	text-align: center;
+	font-size: 50px;
+}
+#h2 {
+	margin-left: 70px;
+	margin-bottom: 7px;	
+}
+#p {
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 25px;	
+}
+#a {
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 25px;	
+}
+#logoChem {
+	width: 60px;
+	cursor: pointer;
+	color: black;
+	margin-left: 20px;
+	margin-top: 10px
+}
+#chem {
+	color: black;
+	margin-top: 10px
+}
+#GenChemExVid {
+	margin-left: 425px;
+	margin-right: 450px;
+	margin-top: 50px;
+
+}
